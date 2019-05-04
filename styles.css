@@ -1,0 +1,261 @@
+body,
+html {
+  background: #e6e6e6;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: "Source Serif Pro", "Helvetica Neue", serif;
+}
+:root {
+  --heading-color: #5b697f;
+
+}
+
+.movie-info {
+display: flex;
+flex-direction: row;
+padding: 0 5% 0 5%;
+margin-top:8%;
+margin-left:5%;
+margin-right:5%;
+color: dimgrey;
+justify-content:space-between;
+}
+
+.movie_in{
+font-weight: bold;
+display: flex;
+flex-direction: row;
+padding: 0 7% 0 7%;
+margin-top:2%;
+margin-left:3%;
+margin-right:3%;
+color: dimgrey;
+justify-content:space-between;
+}
+
+
+
+.movie-container{
+margin-top: 6em;
+display:grid;
+grid-template-columns: repeat(5, 150px)!important;
+grid-template-rows:150px!important;
+grid-gap: 4%;
+justify-content: center;
+}
+
+.latest_movies{
+display: flex;
+margin-top: 8%;
+background-color: #ff9933;
+color: white;
+width: 15%;
+height:10%;
+text-align: center;
+justify-content: center;
+}
+
+
+/*DISPLAY_IMAGE*/
+
+
+
+.para{
+
+text-align: top-right;
+align-items:right;
+padding: 20px;
+}
+
+textarea {
+
+  width: 800px;
+  height: 200px;
+  border-color: orange;
+
+}
+.review-input {
+width: 180px;
+margin: 0 auto;
+text-align: center;
+padding-right:45%;
+
+}
+.submit {
+width: 120px;
+height: 60px;
+text-align: center;
+}
+
+.image{
+width: 80px;
+height: 80px;
+float: left;
+margin-top:2%;
+padding-left:2%;
+}
+
+.delete{
+text-align: right;
+padding-right: 20%;
+}
+
+.current_user{
+text-align: left;
+}
+
+#review-heading {
+text-align:center;
+margin-top: 10%;
+}
+.review{
+  border: 1px solid #666;
+ box-shadow: 0 0 5px 5px rgba(0,0,0,5)
+ margin: 0 auto;
+  margin-top: 2em;
+  margin-left:25%;
+  margin-right: 16%;
+  text-align:center;
+ border-color: gray;
+  width: 700px;
+  height: 200px;
+
+
+
+}
+
+@media screen and (max-width:900px){
+.movie-container {
+grid-template-columns: repeat(3,150px)!important;
+
+}
+}
+
+@media screen and (max-width:545px) {
+.movie-container {
+grid-template-columns: repeat(2, 150px)!important;
+}
+}
+
+.movie{
+height: 150px;
+width: 150px;
+}
+
+/* NAV */
+nav {
+  
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  display: table;
+  justify-content: space-between;
+  height: 45px;
+  background:  #ff9933;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+nav a {
+  text-decoration: none;
+  float: inherit;
+  padding: 0% 10% 0% 10%;
+  font-size: 1.2rem;
+  color: #ffff;
+}
+nav a:hover {
+  opacity: 0.8;
+}
+
+.search-button{
+
+ float:right !important!
+
+}
+
+/* DROPDOWN */
+.dropdown {
+ float: left;
+ overflow: hidden;
+}
+/* DROPDOWN BUTTON */
+.dropdown .dropbtn{
+  float: none;
+  overflow: hidden;
+  font-size: 16px;
+  border: inherit;
+  z-index: inherit;
+  width: inherit;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin-left: 1%;
+  margin-right: 1%;
+  justify-content: space-between;
+  align-items: center;
+}
+.search_box{
+  float: right !important;
+  height: 35px !important;
+  margin-top: 0.75em !important;
+  padding-right: 10% !important;
+}
+
+nav button{
+  float: left;
+  overflow: hidden;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin-left: 1%;
+  margin-right: 1%;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+button .name{
+  color: black!important;
+}
+
+.dropdown-content {
+  display: none;
+  float: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.container input{
+padding-right: 8%;
+}
+
+
