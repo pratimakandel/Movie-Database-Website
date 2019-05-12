@@ -11,12 +11,6 @@ developers are college students, we can thus predict the movies suitable for the
 There will also be a search function in the website, 
 where the user can search for movies, director, actors, keywords from the website and get the data accordingly. 
 
-Steps:
 
-1. Clone the repo.
-2. Move the .sql files in your Mysql database.
-3. Accordingly, connect your database with the database, localserver and password to the php files. 
-4. Finally, run the website with your url for the database and php.
-
-Note: http://cs.umw.edu/~pkandel/S19_350_Team_Blue/index.php
-View the website through the given url above.
+http://cs.umw.edu/~pkandel/S19_350_Team_Blue/index.php
+View the website through the given url.
