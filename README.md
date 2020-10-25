@@ -11,6 +11,3 @@ developers are college students, we can thus predict the movies suitable for the
 There will also be a search function in the website, 
 where the user can search for movies, director, actors, keywords from the website and get the data accordingly. 
 
-
-http://cs.umw.edu/~pkandel/S19_350_Team_Blue/index.php
-View the website through the given url.
